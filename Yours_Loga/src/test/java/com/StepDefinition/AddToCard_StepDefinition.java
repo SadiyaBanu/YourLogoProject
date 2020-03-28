@@ -37,7 +37,7 @@ public class AddToCard_StepDefinition extends BaseClass
 	public void check_the_price_of_the_product() throws Throwable
 	{
 	   obj.priceCheck();
-	   Screenshot("F:\\Selenium_Code_Mars\\Yours_Loga\\src\\test\\resources\\Screenshot\\AddToCard.jpg");
+	   Screenshot("src\\test\\resources\\Screenshot\\AddToCard.jpg");
 	   close();   
 	}
 }
