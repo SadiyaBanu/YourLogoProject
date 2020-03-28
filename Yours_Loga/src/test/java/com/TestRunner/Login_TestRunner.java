@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "F:\\Selenium_Code_Mars\\Yours_Loga\\src\\main\\resources\\feature\\Testcase.feature",
+		features = "src\\main\\resources\\feature\\Testcase.feature",
 		plugin = {"pretty", "html:reports/cucumber-html-report","json:reports/cucumber-html-report/jsonreport","com.cucumber.listener.ExtentCucumberFormatter:reports/ExtentReport/Extentreport.html"},
 		tags = {"@Your_Loga"},
 		glue = {"com.StepDefinition"},
