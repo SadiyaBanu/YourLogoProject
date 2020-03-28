@@ -18,7 +18,7 @@ public class BaseClass
 	//To launch chrome browser
 	public void launchBrowser()
 	{
-	System.setProperty("webdriver.chrome.driver","F:\\Selenium_Code_Mars\\Yours_Loga\\src\\test\\resources\\Driver\\chromedriver_v80.exe");
+	System.setProperty("webdriver.chrome.driver","src\\test\\resources\\Driver\\chromedriver_v80.exe");
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
